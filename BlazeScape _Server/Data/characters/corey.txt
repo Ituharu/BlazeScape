@@ -1,6 +1,6 @@
 [ACCOUNT]
 character-username = corey
-character-password = n1ns4m3
+character-password = maces
 
 [CHARACTER]
 character-height = 0
