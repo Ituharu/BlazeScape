@@ -1,0 +1,97 @@
+[MOREINFO]
+
+[HIGHSCORES]
+Highscore Rank = 1
+
+character-lastlogin = 127.0.0.1
+character-lastlogintime = 20060101
+character-ancients = 0
+character-starter = 1
+character-muted = 0
+character-oreAmountRemaining = 0
+character-isJailed = false
+character-special = 100
+character-height = 0
+character-sl = 0
+character-sla =0
+character-skulltimer = -1
+character-tzwave = -1
+
+[Quests]
+desertTreasure = 0
+
+[Barrows]
+
+dharok-at = 0
+ahrim-at = 0
+guthan-at = 0
+karil-at = 0
+torag-at = 0
+verac-at = 0
+hiddenB = 4
+killCount = 0
+[Al-Kharid]
+
+[LOOK]
+character-look = 0	0
+character-head = 0
+character-torso = 18
+character-arms = 26
+character-hands = 33
+character-legs = 36
+character-feet = 42
+character-beard = 10
+
+character-look = 1	0
+character-head = 0
+character-torso = 18
+character-arms = 26
+character-hands = 33
+character-legs = 36
+character-feet = 42
+character-beard = 10
+
+character-look = 2	0
+character-head = 0
+character-torso = 18
+character-arms = 26
+character-hands = 33
+character-legs = 36
+character-feet = 42
+character-beard = 10
+
+character-look = 3	0
+character-head = 0
+character-torso = 18
+character-arms = 26
+character-hands = 33
+character-legs = 36
+character-feet = 42
+character-beard = 10
+
+character-look = 4	0
+character-head = 0
+character-torso = 18
+character-arms = 26
+character-hands = 33
+character-legs = 36
+character-feet = 42
+character-beard = 10
+
+character-look = 5	0
+character-head = 0
+character-torso = 18
+character-arms = 26
+character-hands = 33
+character-legs = 36
+character-feet = 42
+character-beard = 10
+
+
+[FRIENDS]
+
+[IGNORES]
+
+
+[EOF]
+

@@ -1,0 +1,309 @@
+method14 - price To K or Million
+method15 - Stop midi music
+method16 - Connect to server
+method18 - Draw chat area
+method12 - Start runnable
+method19 - Open sockets
+method20 - select Menu Option
+method21 - Save midi
+method22 - update World Objects 
+method23 - Unlink all
+method24 - render Map Scene
+method25 - spawn Ground Item
+method26 - show Npcs 
+method27 - replay Wave
+method29 - Select Menu Option UseItem On Other
+method30 - manage Chat Interface
+method31 - update NPC
+method32 - select Bottom Buttons
+method33 - adjust Volume
+method34 - handle Head Icons
+method35 - Remove Friend
+method36 - draw Tab Interfaces
+method37 - write Background Texture
+method38 - reset Spoken Text
+method39 - move Camera
+method40 - draw Menu
+method41 - Add Friend
+method44 - logOut
+method46 - update NPC movement
+method7 - createLogIn
+method47 - show Other Players
+method48 - show Input Dialog
+method49 - refresh Update Masks
+method50 - drawMapScenes
+method51 - create New Startup
+method52 - set High Memory
+method53 - load New Region
+method55 - create Projectiles
+method56 - create Background And Logo
+method58 - calc Flames Position
+method59 - save Wave
+method60 - write Interface
+method61 - move Head Icon
+method64 - reset Login Screen
+method13 - draw Loading Text
+method66 - click Object
+method67 - Stream Loader
+method68 - drop Client
+method69 - send Packets
+method70 - Tutorial Island Areas
+method71 - build Right Click Options
+method8 - tidy To Quit
+method72 - debug Flame Cycle
+method11 - Component get Game Applet
+method73 - manage Text Inputs
+method74 - Right Click Chat Names
+method75 - Friends List Welcome Screen
+method76 - show Split Private Chat
+method77 - send Message
+method78 - click Side bar Tab
+method79 - close Full GameScreen
+method80 - get Document Base Host
+method81 - refresh Minimap
+method82 - One Mouse Button Options
+method83 - rotate Flames Colour
+method84 - LogIn
+method85 - walkTo
+method86 - npc Update Mask
+method87 - build At Npc Menu
+method88 - build At Player Menu
+method90 - handle Music Events
+method6 - startUp
+method91 - update Other Player Movement
+method92 - walk Using Minimap
+method94 - showLoadError
+method95 - force Npc Update Block
+method96 - entity Update Block
+method97 - refresh Entity Position
+method98 - refresh Entity Face Direction
+method99 - get Degrees To Turn
+method100 - append Focus Destination
+method101 - append Emote
+method102 - redraw Game Graphics
+method103 - create Friends List
+method104 - create Stationary Graphics
+method105 - draw Interface Components
+method106 - draw Startup Backgrounds
+method107 - append Player Update Mask
+method108 - Check For Game Usages
+method109 - is Friend Or This
+method110 - interface Colour Usages
+method111 - change Volume
+method112 - manage Mouse Clicks
+method113 - add Ignore
+method114 - update Player Instances
+method116 - select Option
+method117 - update Player Movement
+method118 - destruct 
+method119 - animate RS interface
+method120 - set Camera Location
+method121 - reset Camera Height
+method122 - Remove Ignore
+method124 - extract Interface Values
+method125 - Show Ops
+method126 - turn Mini map
+method127 - get Visible Models
+method128 - show Visible Models
+method129 - Right Click In Chat
+method130 - create Object
+method132 - Jaggrab Input Stream
+method133 - do Flames Drawing
+method134 - update Player
+method135 - draw Login Screen
+method136 - drawFlames
+method137 - manage Model Creations
+method138 - set Low Mem
+method139 - update NPCs
+method140 - show LogIn
+method141 - mark MiniMap
+method143 - update Player Pos
+method144 - camera Follow Player
+method145 - process Packets
+method146 - move Camera With Player
+method147 - clear Interfaces
+anInt822 - ignore List Length
+aByte823 - low Memory Byte
+aBoolean831 - able To Run Client
+aSocket832 - client Socket
+anInt833 - Login Screen State
+aClass30_Sub2_Sub2_834 - stream Instance
+aClass30_Sub2_Sub4_Sub1_Sub1Array835 - active NPCs
+anInt836 - Npc Count
+aString844 - message To Say
+anInt845 - private Chat Status
+aBoolean848 - song Is Playing
+anIntArray864 - current Experience
+aClass30_Sub2_Sub1_Sub1_870 - mapFlag
+aClass30_Sub2_Sub1_Sub1_871 - mapMarker
+aBoolean872 - allow Data Input
+anInt874 - wave Playing
+anInt877 - Npc ID
+anInt878 - weight Carried
+aClass48_879 - mouse Detection
+aString881 - report Abuse Input
+aBoolean885 - menuOpen
+aString887 - max Players
+
+anInt863 = player rights client side
+
+Packet 156 : Remove item model.	
+Packet 151 : Create world object.			
+Packet 4 : Create a stationary animation. 	
+Packet 101 : Create world object.			
+Packet 44 : Create item model.				
+Packet 117 : Projectile graphic creation.	
+Packet 81 : Update Players. 
+Packet 176 : Open the welcome screen. 
+Packet 107 : Resets something to do with camera movement. 
+Packet 214 : Replaces the long array of player names on ignore list with what is read. 
+Packet 166 : Toggle the camera. 
+Packet 134 : Read the skill information. 
+Packet 71 : Read the tab interfaces. 
+Packet 121 : Set music, used less. 
+Packet 109: Logout. 
+Packet 70: Sets the special bar information. 
+Packet 208 : Read the interface ID which the player can still walk. 
+Packet 99 : Read the minimap state.
+Packet 75 : Npc chat related. 
+Packet 114 : Read server update time. 
+Packet 35 : Shake the screen. 
+Packet 174 : Play a sound effect. 
+Packet 104 : Read the atPlayer right click menu options. 
+Packet 78 : Remove the flag from the minimap. 
+Packet 253 : Read message sent to the player in chatbox. 
+Packet 50 : Read private message info.
+Packet 110 : Read player energy.	
+Packet 248 : Creates an interface and inventory overlay. 
+Packet 68 : Turn off split private chat. 
+Packet 196 : Send a private message.	
+Packet 85 : Read the X and Y coordinates for next graphic created. 
+Packet 24 : Flash sidebar icons. 
+Packet 246 : Manipulate item images displayed in interfaces. 
+Packet 171 : Add special bar to interface.	
+Packet 142 : Write an interface over the inventory and remove sidebar icons.	
+Packet 126 : Manipulate lines of text in interfaces. 
+Packet 206 : Read player chat options.	
+Packet 240 : Read the player wieght carried.	
+Packet 53 : Write item images to interface. 
+Packet 221 : Private message server status.	
+Packet 177 : Toggle camera view. 
+Packet 249 : Initialize player info. 
+Packet 65 : NPC updating.
+Packet 27 : Open "Enter Amount" interface.		
+Packet 187 : Open "Enter Username" interface.	
+Packet 218 : Write an interface over the chatbox. 
+Packet 87 : Adjust the valume.	
+Packet 36 : Set button states.	
+Packet 61 : Reset head icons.	
+Packet 219 : Close all open interfaces. 
+Packet 34 : Write inventory items.			
+Packet 106 : Set the current sidebar.	
+Packet 164 : Write an interface over the chat box.
+
+
+
+
+
+
+
+317
+Server-Side:
+0 - Ping timeout
+3 - Client focus change
+4 - public chat, sent when a player says something
+14 - use an item on a player
+16 - an alternate item option, like clicking teleport on a glory, for example
+17 - click second NPC option
+18 - click fourth NPC option
+21 - click third NPC option
+25 - use item on ground item
+35 - use magic on an object
+41 - equip item packet
+43 - bank 10 items/sell 5 items
+53 - use item on item
+57 - use item on NPC
+60 - type a name into enter name interface (this is shown when the client receives packet 187)
+70 - the third object clicking packet
+72 - attack NPC
+73 - attack a player
+74 - remove from ignore list
+75 - another alternate item option
+86 - sent when the camera angle changes
+87 - drop item packet
+95 - update public chat, trade/duel, and private chat (on, off, friend and for public chat hide)
+101 - update appearance changes on character design screen
+103 - command packet, sent when user executes a :: command
+117 - bank 5 items/sell 1 item
+120 - sent when a flashing sidebar tab is clicked (the packet to make the tab flash is 24, and writeByteA is used to write the ID of the tab, which must be 0 to 13 or 0 to 12, I don't know if it counts the blank tab)
+121 - sent when changing map region
+122 - sent when using an using an item such as food or bones, which have a unique first click option (bandages would be another example)
+126 - send a private message
+128 - click first player option
+129 - bank all items/buy 10 items
+130 - sent when clicking some buttons in game, like report abuse, for example
+131 - use magic on an NPC
+132 - the first object clicking packet
+133 - add to ignore list
+135 - bank x items
+139 - accept trade
+145 - remove item packet
+153 - click second player option
+155 - click first NPC option
+181 - use magic on ground item
+185 - sent when clicking most buttons
+188 - add friend
+192 - use item on object
+202 - idle logout packet
+208 - type an amount into enter amount interface (this is shown when the client receives packet 27)
+210 - sent when changing map region
+214 - sent when player swaps position of items in inventory
+215 - remove friend
+218 - report a player
+228 - the fifth object clicking packet
+234 - the fourth object clicking packet
+236 - pick an item up off the ground
+237 - use magic on an item
+241 - clicking packet
+249 - use magic on a player
+252 - the second object clicking packet
+253 - alternate option for clicking item on ground, like lighting a log, for example
+_____________________________________________________________________________________________________________________________________________________________
+
+Client-Side:
+24 - makes a sidebar tab flash
+27 - shows enter amount interface
+34 - write items to inventory
+35 - shakes the camera, looks like an earthquake
+36 - adjusts the volume
+50 - updates a friend's online status and world in friends list
+68 - resets game options and player controls to their original positions
+71 - set the interface ID of a sidebar tab
+74 - looks like it plays music
+78 - makes the flag on the mini-map disappear
+87 - adjusts the volume
+97 - shows an interface
+99 - makes the mini-map black and unclickable (the recieved value is meant to be 0 to reset it to normal or 2 to make it black, but anything other than 0 or 2 will only make it unclickable)
+104 - creates an option in the right click player menu
+106 - changes selected sidebar tab
+107 - resets the boolean array in packet 35, stopping the earthquake
+109 - logs client out
+114 - system update
+121 - also looks like it plays music, but it's different than packet 74
+126 - "sendquest"
+134 - get the level and experience to the next level of a skill
+142 - shows an interface over your inventory and removes the sidebar icons
+164 - shows an interface over that chat box
+166 - changes the camera view
+176 - sets the information in the welcome screen and opens it
+177 - changes the camera view
+187 - shows enter name interface
+196 - displays a private message
+206 - sets public chat, trade/duel, and private chat depending on the recieved data
+208 - shows an interface normally, but you can't interact with it and you can still walk
+214 - replace all the names on the ignore list with the one received by the client
+218 - shows an interface over the chat box, additionally, any sendMessage text will be displayed over the chat with the click to continue interface
+219 - closes all interfaces
+221 - friends/ignore list loading status (0, 1, 2 and 3 are the options, but everything above 3 will display the same message as 3 does)
+248 - shows an interface on the game screen as well as on your inventory
+253 - sendMessage (also handles trade and duel requests depending on whether the recieved String ends with :duelreq: :tradereq: or :chalreq:) I haven't tested chalreq
